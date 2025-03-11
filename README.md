@@ -1,2 +1,2 @@
 # portfolio-tailwindcss
- Ana Leticia
+ Ana Letícia
