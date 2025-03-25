@@ -6,6 +6,11 @@
     <title>Portfólio - Ana Letícia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script>
+      (function () {
+        emailjs.init("RyWq9K15FxA5MnAul"); // Substitua pelo seu User ID
+      })();
+    </script>
   </head>
   <body class="bg-gray-50">
     <!--Header-->
@@ -334,7 +339,7 @@
         message: this.message.value,
       });
 
-      emailjs.sendForm("service_teljsz8", "template_sgf0gcs", this).then(
+      emailjs.sendForm("service_dg3mw9k", "template_jnn205e", this).then(
         function (response) {
           console.log("Sucesso: ", response);
           alert("Mensagem enviada com sucesso");
